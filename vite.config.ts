@@ -9,10 +9,16 @@ export default defineConfig({
 	build: {
 		rollupOptions: {
 			external: ['react', 'react/jsx-runtime'],
+			moduleContext(id) {
+				if (id.includes('node_modules')) {
+					return 'global';
+				}
+			},
 		},
 		lib: {
 			entry: resolve(__dirname, 'lib/main.ts'),
 			formats: ['es'],
+			fileName: 'main',
 		},
 	},
 });

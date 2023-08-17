@@ -1,11 +1,5 @@
-import { Button } from '../';
-
 function App() {
-	return (
-		<div>
-			<Button>Click me</Button>
-		</div>
-	);
+	return <div></div>;
 }
 
 export default App;
