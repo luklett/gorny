@@ -2,7 +2,7 @@
 	"name": "gorny",
 	"homepage": "https://64df4e76ff8d91890aa2f602-aonyyultrs.chromatic.com",
 	"private": false,
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"type": "module",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
