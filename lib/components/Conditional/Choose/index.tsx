@@ -1,7 +1,7 @@
 import { Otherwise } from '../Otherwise';
 import { When } from '../When';
 
-interface ChooseProps {
+export interface ChooseProps {
 	children: React.ReactNode;
 	multiple?: boolean;
 }
