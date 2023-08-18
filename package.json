@@ -62,5 +62,9 @@
 	},
 	"resolutions": {
 		"jackspeak": "2.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://https://github.com/luklett/gorny.git"
 	}
 }
