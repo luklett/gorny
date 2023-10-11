@@ -1,2 +1,1 @@
-export { GornyProvider } from './components/GornyProvider';
-export { Choose } from './components/Conditional/Choose';
+export { Choose } from "./components/Conditional/Choose";
