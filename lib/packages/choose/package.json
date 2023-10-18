@@ -1,0 +1,21 @@
+{
+	"name": "@gorny/choose",
+	"version": "1.0.1",
+	"description": "",
+	"main": "dist/main.js",
+	"types": "dist/main.d.ts",
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

@@ -1,5 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import { ChooseProps } from '../../lib/components/Conditional/Choose';
+import { ChooseProps } from '../../lib/packages/choose/main';
 import { Choose } from '../../lib/main';
 
 export default {

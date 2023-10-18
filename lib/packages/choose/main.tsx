@@ -1,5 +1,5 @@
-import { Otherwise } from '../Otherwise';
-import { When } from '../When';
+import { Otherwise } from './otherwise';
+import { When } from './when';
 
 export interface ChooseProps {
 	children: React.ReactNode;

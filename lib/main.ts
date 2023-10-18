@@ -1,4 +1,4 @@
-export { Choose } from "./components/Conditional/Choose";
-export { Swiper } from "./components/Swiper";
-export { useSwiper } from "./components/Swiper/useSwiper";
-export { SwiperProvider } from "./components/Swiper/SwiperProvider";
+export { Choose } from './packages/choose/main';
+export { Swiper } from './packages/swiper/main';
+export { useSwiper } from './packages/swiper/use-swiper';
+export { SwiperProvider } from './packages/swiper/swiper-provider';

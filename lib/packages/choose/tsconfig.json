@@ -1,14 +1,11 @@
 {
-	"exclude": ["**/*.test.ts", "**/*.stub.ts", "node_modules", "dist"],
+	"exclude": ["dist"],
 	"compilerOptions": {
 		"baseUrl": "./",
 		"esModuleInterop": true,
 
 		"forceConsistentCasingInFileNames": true,
 		"declaration": true,
-		"paths": {
-			"@gorny/*": ["./lib/packages/*/"]
-		},
 		"target": "ES2020",
 		"useDefineForClassFields": true,
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -28,7 +25,5 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
-	},
-	"include": ["src", "lib", "./packages/*/**.*"],
-	"references": [{ "path": "./tsconfig.node.json" }]
+	}
 }

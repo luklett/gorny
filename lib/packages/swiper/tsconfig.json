@@ -6,9 +6,6 @@
 
 		"forceConsistentCasingInFileNames": true,
 		"declaration": true,
-		"paths": {
-			"@gorny/*": ["./lib/packages/*/"]
-		},
 		"target": "ES2020",
 		"useDefineForClassFields": true,
 		"lib": ["ES2020", "DOM", "DOM.Iterable"],
@@ -29,6 +26,5 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src", "lib", "./packages/*/**.*"],
-	"references": [{ "path": "./tsconfig.node.json" }]
+	"include": ["./"]
 }
