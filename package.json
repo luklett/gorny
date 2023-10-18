@@ -1,7 +1,7 @@
 {
 	"name": "@gorny/main",
 	"homepage": "https://64df4e76ff8d91890aa2f602-aonyyultrs.chromatic.com",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"type": "module",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
