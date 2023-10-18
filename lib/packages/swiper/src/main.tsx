@@ -1,4 +1,4 @@
-import { Children, FC, useEffect } from 'react';
+import React, { Children, FC, useEffect } from 'react';
 import { register } from 'swiper/element/bundle';
 import { SwiperEvents } from 'swiper/types';
 import useSwiper from './use-swiper';

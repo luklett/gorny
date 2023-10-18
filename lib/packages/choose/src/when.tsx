@@ -1,4 +1,4 @@
-interface WhenProps {
+export interface WhenProps {
 	children: React.ReactNode;
 	condition: boolean;
 }

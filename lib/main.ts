@@ -1,4 +1,4 @@
-export { Choose } from './packages/choose/main';
-export { Swiper } from './packages/swiper/main';
-export { useSwiper } from './packages/swiper/use-swiper';
-export { SwiperProvider } from './packages/swiper/swiper-provider';
+export { Choose } from './packages/choose/src/main';
+export { Swiper } from './packages/swiper/src/main';
+export { useSwiper } from './packages/swiper/src/use-swiper';
+export { SwiperProvider } from './packages/swiper/src/swiper-provider';

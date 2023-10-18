@@ -29,6 +29,12 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src", "lib", "./packages/*/**.*"],
-	"references": [{ "path": "./tsconfig.node.json" }]
+	"include": ["src", "lib"],
+	"references": [
+		{ "path": "./tsconfig.node.json" },
+		{ "path": "./lib/packages/swiper/tsconfig.json" },
+		{
+			"path": "./lib/packages/choose/tsconfig.json"
+		}
+	]
 }

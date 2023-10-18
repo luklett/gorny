@@ -1,8 +1,8 @@
 import { Meta, StoryFn } from '@storybook/react';
-import { ChooseProps } from '../../lib/packages/choose/main';
+import { ChooseProps } from '../../lib/packages/choose/src/main';
 import { Choose } from '../../lib/main';
 
-export default {
+const meta: Meta = {
 	title: 'Choose',
 	component: Choose,
 	argTypes: {
@@ -13,7 +13,9 @@ export default {
 		},
 	},
 	tags: ['autodocs'],
-} as Meta;
+};
+
+export default meta;
 
 const Template = ({ multiple, children }: ChooseProps) => (
 	<Choose multiple={multiple}>{children}</Choose>
