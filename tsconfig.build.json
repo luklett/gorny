@@ -14,9 +14,10 @@
 		"forceConsistentCasingInFileNames": true,
 		"rootDir": "./lib",
 		"outDir": "./dist",
+		"tsBuildInfoFile": "./dist/.tsbuildinfo",
 		"composite": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx"
 	},
-	"exclude": ["dist/**"]
+	"exclude": ["dist/**", "lib/packages/**/src/stories/**"]
 }

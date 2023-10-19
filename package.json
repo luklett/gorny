@@ -13,6 +13,7 @@
 		"lib/packages/*"
 	],
 	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
 		"publish:all": "sh ./publish.sh",
 		"prepublishOnly": "npm run build",
 		"storybook": "storybook dev -p 6006",
