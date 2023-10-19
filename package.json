@@ -1,7 +1,8 @@
 {
 	"name": "@gorny/main",
 	"homepage": "https://64df4e76ff8d91890aa2f602-aonyyultrs.chromatic.com",
-	"version": "1.0.8",
+	"version": "1.0.7",
+	"private": true,
 	"type": "module",
 	"main": "dist/main.js",
 	"types": "dist/main.d.ts",
@@ -12,8 +13,6 @@
 		"lib/packages/*"
 	],
 	"scripts": {
-		"dev": "vite",
-		"build": "tsc --build && vite build",
 		"publish:all": "sh ./publish.sh",
 		"prepublishOnly": "npm run build",
 		"storybook": "storybook dev -p 6006",
@@ -33,7 +32,6 @@
 		"@types/react-dom": "^18.2.7",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
-		"@vitejs/plugin-react": "^4.0.3",
 		"chromatic": "^6.22.0",
 		"eslint": "^8.45.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
@@ -43,8 +41,7 @@
 		"react-dom": "^18.2.0",
 		"storybook": "^7.3.1",
 		"typescript": "^5.0.2",
-		"vite": "^4.4.5",
-		"vite-plugin-dts": "^3.5.2"
+		"vite": "^4.4.5"
 	},
 	"resolutions": {
 		"jackspeak": "2.1.1"

@@ -29,7 +29,7 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src", "lib"],
+	"include": ["lib"],
 	"references": [
 		{ "path": "./tsconfig.node.json" },
 		{ "path": "./lib/packages/swiper/tsconfig.json" },

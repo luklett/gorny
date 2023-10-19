@@ -14,5 +14,6 @@
 		"composite": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx"
-	}
+	},
+	"exclude": ["dist/**"]
 }

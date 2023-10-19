@@ -1,6 +1,5 @@
 import { Meta, StoryFn } from '@storybook/react';
-import { ChooseProps } from '../../lib/packages/choose/src/main';
-import { Choose } from '../../lib/main';
+import { Choose, ChooseProps } from '../main';
 
 const meta: Meta = {
 	title: 'Choose',
