@@ -1,9 +1,3 @@
-
-
-#npm set //registry.npmjs.org/:_authToken $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
-
-
-
 npm version patch
 
 for dir in lib/packages/*; do
